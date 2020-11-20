@@ -2,6 +2,7 @@
   --primary-color: #488ac7;
   --secondary-color: #efb261;
   --light-color: #f3f3f3;
+  --not-purewhite: #eee;
   --dark-color: #333;
   --max-width: 1100px;
 }
@@ -65,7 +66,7 @@ h6 {
 
 .category {
   display: inline-block;
-  color: #eee;
+  color: var(--not-purewhite);
   font-size: 0.55rem;
   text-transform: uppercase;
   padding: 0.4rem 0.6rem;
@@ -96,7 +97,7 @@ h6 {
   display: inline-block;
   border: none;
   background: var(--dark-color);
-  color: #eee;
+  color: var(--not-purewhite);
   padding: 0.5rem 1.5rem;
 }
 
@@ -156,7 +157,7 @@ h6 {
 .bg-secondary h2,
 .bg-secondary h3,
 .bg-secondary a {
-  color: #eee;
+  color: var(--not-purewhite);
 }
 
 .py-1 {
@@ -194,6 +195,7 @@ h6 {
 
 /* Inner page grid container*/
 .page-container {
+  min-height: 65vh;
   display: grid;
   grid-template-columns: 5fr 2fr;
   margin: 2rem 0;
@@ -206,7 +208,7 @@ h6 {
 
 /* Navigation */
 #main-nav {
-  background: #eee;
+  background: var(--not-purewhite);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -235,7 +237,7 @@ h6 {
 
 #main-nav ul li a.current {
   background: var(--primary-color);
-  color: #eee;
+  color: var(--not-purewhite);
 }
 
 #main-nav ul li a:hover {
@@ -266,7 +268,7 @@ h6 {
 
 /* Showcase */
 #showcase {
-  color: #eee;
+  color: var(--not-purewhite);
   background: #333;
   padding: 2rem;
   position: relative;
@@ -324,7 +326,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #eee;
+  background: var(--not-purewhite);
   padding: 0.5rem;
 }
 
@@ -340,6 +342,10 @@ h6 {
 
 #article p .about-ua {
   font-weight: bold;
+}
+
+#article ol {
+  list-style-position: inside;
 }
 
 /* Footer */

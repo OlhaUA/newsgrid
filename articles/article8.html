@@ -46,11 +46,13 @@
       <div class="container">
         <div class="page-container">
           <article class="card">
-            <img
-              src="../img/articles/politics_a.jpg"
-              alt="The President of Ukraine"
-            />
-            <small>Photograph: Arthur Bondar</small>
+            <figure>
+              <img
+                src="../img/articles/politics_a.jpg"
+                alt="The President of Ukraine"
+              />
+              <figcaption><small>Photograph: Arthur Bondar</small></figcaption>
+            </figure>
             <h1 class="l-heading">
               Volodymyr Zelenskiy: ‘My White House invitation? I was told it’s
               being prepared’
@@ -176,7 +178,13 @@
           <a href="#" class="btn btn-secondary">Join Now</a>
         </div>
         <div>
-          <p>Copyright &copy; 2020, All rights reserved</p>
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            , NewsGrid
+          </p>
         </div>
       </div>
     </footer>
