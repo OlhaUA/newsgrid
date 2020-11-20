@@ -20,6 +20,12 @@
   }
 }
 
+@media screen and (max-height: 667px) {
+  #showcase .showcase-container {
+    height: 85vh;
+  }
+}
+
 #home-articles .articles-container {
   grid-template-columns: repeat(2, 1fr);
 }
