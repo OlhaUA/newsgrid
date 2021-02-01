@@ -11,8 +11,8 @@ class Footer extends HTMLElement {
       <div>
         <img src="../img/logo-bluel.png" alt="NewsGrid" />
         <p>
-          Latest news of Ukraine and world online. Sports, politics,
-          education, science and culture from the NewsGrid.
+          Latest news of Ukraine and world online. Sports, politics, education,
+          science and culture from the NewsGrid.
         </p>
       </div>
       <div>
@@ -38,9 +38,7 @@ class Footer extends HTMLElement {
         <a href="#" class="btn btn-primary">Join Now</a>
       </div>
       <div>
-        <p>
-          Copyright &copy; 2021, NewsGrid
-        </p>
+        <p>Copyright &copy; 2021, NewsGrid</p>
       </div>
     </div>
   </footer>
